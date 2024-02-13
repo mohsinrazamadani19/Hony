@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    color: #fff;
+    font-size: 14px;
+   
+    line-height: 1.80857;
+    font-weight: normal;
+    background: url(./images/body_bg.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.main1{
+    width: 10%;
+    height: 100%;
+   
+    
+  
+}
+
+.main1>h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main1>a>img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 40%;
+}
+.main1>ul>li{
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    writing-mode:vertical-rl;
+    text-orientation:mixed;
+    text-align: center;
+    list-style: none;
+    text-align: center;
+    margin-left: 41%;
+
+}
+
+
+.main2{
+    width: 90%;
+    height: inherit;
+    
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    
+    
+}
+
+.nav1{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 5vh;
+   margin-left: 3vh;
+   
+
+   
+   
+}
+.nav1>img{
+    margin: 10px;
+    width: 20px;
+}
+.nav1>a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+.nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   cursor: pointer;
+    margin-top: 5vh;
+}
+.nav2>img{
+    margin: 10px;
+    width: 30px;
+}
+.nav2>a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+.nav3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 49%;  
+}
+
+.nav3>img{
+    margin: 10px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.slide{
+    position: absolute;
+    margin-top: 10vh;
+}
+
+
+#carouselExampleAutoplaying, .carousel-inner, .active{
+    width: 100%;
+    height: 100vh;
+   
+   
+
+}
+.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.text1{
+    width: 65%;
+    position: absolute;
+    margin-top: 10vh;
+    text-align: left;
+    margin-left: 8%;
+    
+}
+.text1>h1{
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+.text1>p{
+    font-size: 20px;
+    
+}
+.text1>button{
+    color: #fff;
+    background-color: rgb(255, 101, 45);
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text1>button:hover{
+    background-color:  rgba(231, 96, 47, 0.87);
+}
+.text1>button:active{
+    background-color:  rgba(24, 14, 10, 0.555);
+
+}
+
+.image1{
+    width: 35%;
+    margin-left: 55%;
+    margin-top: 10vh;
+}
+.image1>img{
+    width: 100%;
+   
+}
+
+
+.div2{
+    width: 100%;
+    background-color: white;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divsub1{
+    width: 50%;
+    height: 100%;
+   
+}
+
+.divsub2{
+    width: 50%;
+    height: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.divsub2>img{
+    width: 70%;
+}
+
+.divsub101{
+    width: 100%;
+
+    height: 50%;
+}
+
+.divsub101>p{
+    color: black;
+    background-image: url(./images/about_left.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position:left;
+    height: 50%;
+    position: absolute;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 50%;
+    
+    padding: 110px;
+    font-size: 48px;
+}
+
+.divsub102{
+   
+    width: 100%;
+    height: 50%;
+}
+.divsub102>p{
+    color: rgba(0, 0, 0, 0.719);
+    font-weight:500;
+    padding-left: 80px;
+    font-size: large;
+}
+.divsub102>button{
+    width: 180px;
+    height: 7vh;
+    background-color: rgb(231, 96, 47);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius:30px ;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+
+
+.divsub102>button:hover{
+    background-color:  rgba(231, 96, 47, 0.87);
+}
+
+.divsub102>button:active{
+    background-color:  rgba(24, 14, 10, 0.555);
+}
+
+.quality{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+.quality>h1{
+    font-size: 52px;
+    margin: 10px;
+    margin-top: 80px;
+    font-weight: bolder;
+}
+.quality>p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.maincircle{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.circle{
+    border-radius: 150px 150px 150px 150px;
+    background-color: white;
+    width: 20%;
+    height: 250px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quality>button{
+    width: 180px;
+    height: 7vh;
+    background-color: rgb(231, 96, 47);
+    color: white;
+    font-weight:lighter;
+    border: none;
+    border-radius:30px ;
+    cursor: pointer;
+}
+
+.quality>button:hover{
+    background-color:  rgba(231, 96, 47, 0.87);
+}
+.quality>button:active{
+    background-color:  rgba(24, 14, 10, 0.555);
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input{
+   background: none;
+   border: #fff 2px solid;
+   width: 35%;
+   height: 15vh;
+   outline: none;
+   padding: 20px;
+   color: #fff;
+  
+   
+}
+input::placeholder{
+    color: white;
+}
+
+.send{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.send>button{
+    width: 180px;
+    height: 10vh;
+    background-color: rgb(231, 96, 47);
+    color: white;
+    font-weight:bold;
+    border: none;
+    border-radius:30px ;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.send>button:hover{
+    background-color:  rgba(231, 96, 47, 0.87);
+}
+.send>button:active{
+    background-color:  rgba(24, 14, 10, 0.555);
+}
+
+.honet{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.foot{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    height: 70vh;
+    
+}
+
+.foot1{
+    width: 20%;
+    height: 50vh;
+    
+    margin: 10px;
+    font-size: 20px;
+}
+.foot1>h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.foot1>img{
+    margin: 5px;
+    cursor: pointer;
+}
+.foot1>img:hover{
+ background-color: rgb(255, 0, 0);
+ background-size:contain;
+ 
+}
+
+.foot1>p>a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.foot1>p>a:hover{
+   color: coral;
+   
+}
+.foot1>p>a:active{
+    color: rgb(116, 103, 99);
+    
+ }
+
+ .foot1>ul{
+    list-style: none;
+    position:absolute;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+   
+ }
+
+ .foot1>input{
+    background-color: white;
+    width: 200px;
+    height: 2vh;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 10px;
+    color: black;
+
+ }
+
+ .foot1>input::placeholder{
+ color: black;
+ }
+
+ .foot1button>button{
+    width: 110px;
+    height: 7vh;
+    background-color: coral;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+ }
+
+ .foot1button>button:hover{
+    background-color:  rgba(231, 96, 47, 0.87);
+
+ }
+ .foot1button>button:active{
+    background-color: rgb(116, 103, 99);
+
+
+ }
